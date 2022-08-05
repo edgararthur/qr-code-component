@@ -40,7 +40,7 @@ img {
 .card {
     background: var(--white);
     width: 250px;
-    height: 370px;
+    height: 390px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     border-radius: 10px;
 }
@@ -61,6 +61,7 @@ img {
 }
 
 .desc p {
+    padding-top: 10px;
     font-size: 14px;
     text-align: center;
     color: #333;
