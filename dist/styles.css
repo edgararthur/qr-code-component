@@ -15,7 +15,6 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    max-width: 1400px;
     
 }
 
@@ -27,11 +26,6 @@ p {
     font-size: 15px;
 }
 
-.header {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
 img {
     width: 100%;
     border-radius: 0.7rem;
@@ -41,6 +35,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1500px;
     height: 95vh;
 
     background-color: var(--light-gray);
@@ -54,7 +49,7 @@ img {
     align-items: center;
     
     padding: 1rem;
-    margin: 1rem 2rem;
+    /* margin: 1rem 2rem; */
     box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, .18);
     border-radius: 0.76rem;
 }
